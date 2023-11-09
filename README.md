@@ -1,1 +1,1 @@
-# Reactjs eslint configuration
+# ReactJS eslint configuration
