@@ -59,6 +59,7 @@ module.exports = {
         selector: "variable",
         format: ["camelCase", "UPPER_CASE", "PascalCase", "snake_case"],
         leadingUnderscore: "allow",
+        trailingUnderscore: "allow",
       },
       {
         selector: "function",
@@ -77,7 +78,7 @@ module.exports = {
     "@typescript-eslint/no-empty-function": "error",
     "@typescript-eslint/no-use-before-define": "error",
     "react/display-name": "off",
-    "@typescript-eslint/no-explicit-any": "error",
+    "@typescript-eslint/no-explicit-any": "off",
     "react/react-in-jsx-scope": "off",
     "react/prop-types": "off",
     "react/jsx-fragments": "error",
