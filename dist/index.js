@@ -57,7 +57,7 @@ module.exports = {
       "error",
       {
         selector: "variable",
-        format: ["camelCase", "UPPER_CASE", "PascalCase"],
+        format: ["camelCase", "UPPER_CASE", "PascalCase", "snake_case"],
         leadingUnderscore: "allow",
       },
       {
@@ -66,11 +66,11 @@ module.exports = {
       },
       {
         selector: ["objectLiteralProperty", "typeProperty"],
-        format: ["camelCase"],
+        format: ["camelCase", "snake_case"],
       },
       {
         selector: ["enum", "enumMember", "class", "interface", "typeAlias"],
-        format: ["PascalCase"],
+        format: ["PascalCase", "snake_case"],
       },
     ],
     "@typescript-eslint/explicit-module-boundary-types": "off",
