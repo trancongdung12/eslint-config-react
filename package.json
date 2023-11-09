@@ -1,5 +1,5 @@
 {
-  "name": "@reactdevjunn/eslint-config-react",
+  "name": "@dray/eslint-config-react",
   "version": "1.0.0",
   "description": "Eslint config fork from enouvo front end development",
   "main": "dist/index.js",
@@ -7,7 +7,7 @@
     "dist"
   ],
   "license": "MIT",
-  "author": "reactdevjunn",
+  "author": "dray",
   "repository": {
     "type": "git",
     "url": "https://github.com/reactdevjunn/eslint-config-react"
