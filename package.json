@@ -1,6 +1,6 @@
 {
   "name": "@reactdevjunn/eslint-config-react",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Eslint config fork from enouvo front end development",
   "main": "dist/index.js",
   "files": [
