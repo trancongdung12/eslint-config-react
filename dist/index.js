@@ -67,7 +67,14 @@ module.exports = {
       },
       {
         selector: ["objectLiteralProperty", "typeProperty"],
-        format: ["camelCase", "snake_case"],
+        format: [
+          "camelCase",
+          "snake_case",
+          "PascalCase",
+          "strictCamelCase",
+          "UPPER_CASE",
+          "StrictPascalCase",
+        ],
       },
       {
         selector: ["enum", "enumMember", "class", "interface", "typeAlias"],
